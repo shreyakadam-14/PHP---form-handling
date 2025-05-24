@@ -123,9 +123,9 @@ background: rgba(255, 255, 255, .2);
 }
 
 #list {
-  display: none; /* Hide by default */
+  display: none;
 }
 
 #list.show {
-  display: block; /* Show when the "show" class is applied */
+  display: block;
 }
