@@ -13,6 +13,6 @@ selectField.addEventListener('click', () => {
 options.forEach(option => {
   option.addEventListener('click', () => {
     selectText.textContent = option.textContent;
-    list.classList.remove('show'); // Close the list after selecting an option
+    list.classList.remove('show');
   });
 });
